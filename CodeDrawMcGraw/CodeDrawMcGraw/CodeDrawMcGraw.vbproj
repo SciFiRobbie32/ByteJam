@@ -77,6 +77,18 @@
       <DependentUpon>Story1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Story5.Designer.vb">
+      <DependentUpon>Story5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Story5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Story4.Designer.vb">
+      <DependentUpon>Story4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Story4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Story3.Designer.vb">
       <DependentUpon>Story3.vb</DependentUpon>
     </Compile>
@@ -116,6 +128,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Story4.resx">
+      <DependentUpon>Story4.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Story1.resx">
       <DependentUpon>Story1.vb</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Story3.resx">
       <DependentUpon>Story3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Story5.resx">
+      <DependentUpon>Story5.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
