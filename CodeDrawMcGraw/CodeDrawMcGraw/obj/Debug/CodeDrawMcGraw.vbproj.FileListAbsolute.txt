@@ -1,0 +1,12 @@
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.exe.config
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.exe
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.pdb
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.xml
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.vbprojAssemblyReference.cache
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Resources.resources
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.vbproj.GenerateResource.cache
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.vbproj.CoreCompileInputs.cache
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.exe
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.xml
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.pdb
+C:\wamp64\www\IHCCElectricCompanyTeam\ByteJam\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.main.resources
