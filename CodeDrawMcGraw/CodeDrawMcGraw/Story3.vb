@@ -15,6 +15,10 @@
                 TextBox1.Height = 100
                 PictureBox1.Show()
                 PictureBox1.BackColor = Color.Blue
+                ctr3 += 1
+            Case 2
+                Dim frmStory4 As New Story4
+                Story4.ShowDialog()
         End Select
     End Sub
 
