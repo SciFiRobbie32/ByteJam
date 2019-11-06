@@ -23,3 +23,5 @@ C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\De
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.xml
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.pdb
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story1.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story2.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story3.resources
