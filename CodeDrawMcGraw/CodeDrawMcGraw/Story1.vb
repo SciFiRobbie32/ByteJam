@@ -10,7 +10,7 @@
                 TextBox1.Text = "You have no idea who you just messed with!"
                 TextBox1.Location = New Point(50, 250)
                 TextBox1.Height = 40
-                PictureBox1.Image = Image.FromFile(C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\.vs\CodeDrawMcGraw\Assests\Enemies\Billy_The_Code_Loud.gif)
+                PictureBox1.Image = Image.FromFile("C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\assests\enemies\Billy_The_Code_Loud.gif")
                 PictureBox2.BackColor = Color.Red
                 ctr += 1
             Case 1
