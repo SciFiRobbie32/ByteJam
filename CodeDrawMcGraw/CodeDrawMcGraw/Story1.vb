@@ -17,6 +17,10 @@
                 TextBox1.Text = "Billy, I’ll handle this. *He looks at you* The name is Big Hex, I can't have you ruining my reputation like that. Meet me at high noon on main street. We’ll settle this with a duel."
                 TextBox1.Location = New Point(50, 200)
                 TextBox1.Height = 200
+                ctr += 1
+            Case 2
+                Dim frmStory2 As New Story2
+                Story2.ShowDialog()
         End Select
     End Sub
 End Class
