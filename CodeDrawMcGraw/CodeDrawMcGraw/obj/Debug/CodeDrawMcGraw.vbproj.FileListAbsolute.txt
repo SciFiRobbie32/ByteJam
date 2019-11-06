@@ -16,3 +16,5 @@ C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\De
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.xml
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story5.resources
 C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story6.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story7.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story8.resources

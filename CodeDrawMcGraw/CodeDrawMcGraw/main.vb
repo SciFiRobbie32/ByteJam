@@ -12,6 +12,10 @@
         frmStory5.ShowDialog()
         Dim frmStory6 As New Story6
         frmStory6.ShowDialog()
+        Dim frmStory7 As New Story7
+        frmStory7.ShowDialog()
+        Dim frmStory8 As New Story8
+        frmStory8.ShowDialog()
 
     End Sub
 
