@@ -16,7 +16,8 @@
         frmStory7.ShowDialog()
         Dim frmStory8 As New Story8
         frmStory8.ShowDialog()
-
+        Dim frmStory9 As New Story9
+        frmStory9.ShowDialog()
     End Sub
 
     Private Sub btnCredits_Click(sender As Object, e As EventArgs) Handles btnCredits.Click
