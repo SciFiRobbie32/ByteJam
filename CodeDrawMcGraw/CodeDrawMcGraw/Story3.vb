@@ -17,8 +17,7 @@
                 PictureBox1.BackColor = Color.Blue
                 ctr3 += 1
             Case 2
-                Dim frmStory4 As New Story4
-                Story4.ShowDialog()
+                Me.Close()
         End Select
     End Sub
 

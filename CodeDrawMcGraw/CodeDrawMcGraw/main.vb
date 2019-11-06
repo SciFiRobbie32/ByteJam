@@ -1,7 +1,18 @@
 ﻿Public Class main
     Private Sub btnNewGame_Click(sender As Object, e As EventArgs) Handles btnNewGame.Click
         Dim frmStory1 As New Story1
-        Story1.ShowDialog()
+        frmStory1.ShowDialog()
+        Dim frmStory2 As New Story2
+        frmStory2.ShowDialog()
+        Dim frmStory3 As New Story3
+        frmStory3.ShowDialog()
+        Dim frmStory4 As New Story4
+        frmStory4.ShowDialog()
+        Dim frmStory5 As New Story5
+        frmStory5.ShowDialog()
+        Dim frmStory6 As New Story6
+        frmStory6.ShowDialog()
+
     End Sub
 
     Private Sub btnCredits_Click(sender As Object, e As EventArgs) Handles btnCredits.Click

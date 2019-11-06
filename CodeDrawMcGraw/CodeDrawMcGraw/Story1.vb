@@ -19,8 +19,8 @@
                 TextBox1.Height = 200
                 ctr += 1
             Case 2
-                Dim frmStory2 As New Story2
-                Story2.ShowDialog()
+
+                Me.Close()
         End Select
     End Sub
 End Class

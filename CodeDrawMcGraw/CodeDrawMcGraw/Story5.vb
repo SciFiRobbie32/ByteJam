@@ -17,8 +17,7 @@
                 TextBox1.Text = "You reply, You Monster!"
                 ctr += 1
             Case 4
-                Dim frmStory6 As New Story6
-                Story6.ShowDialog()
+                Me.Close()
 
         End Select
     End Sub
