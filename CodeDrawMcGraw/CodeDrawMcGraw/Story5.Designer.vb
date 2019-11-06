@@ -24,6 +24,7 @@ Partial Class Story5
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Cont = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -47,9 +48,19 @@ Partial Class Story5
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(511, 111)
         Me.TextBox1.TabIndex = 1
-        Me.TextBox1.Text = "You notice someone was following you so, you confront him. You say, ““Why are you " &
-    "following me!”” "
+        Me.TextBox1.Text = "You notice someone was following you so, you confront him. You say, ""Why are you " &
+    "following me!"" "
         Me.TextBox1.UseWaitCursor = True
+        '
+        'Cont
+        '
+        Me.Cont.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Cont.Location = New System.Drawing.Point(559, 338)
+        Me.Cont.Name = "Cont"
+        Me.Cont.Size = New System.Drawing.Size(183, 49)
+        Me.Cont.TabIndex = 3
+        Me.Cont.Text = "Continue"
+        Me.Cont.UseVisualStyleBackColor = True
         '
         'Story5
         '
@@ -57,10 +68,11 @@ Partial Class Story5
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Story5"
-        Me.Text = "Form1"
+        Me.Text = "Code-Draw McGraw"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -69,4 +81,5 @@ Partial Class Story5
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Cont As Button
 End Class
