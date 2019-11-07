@@ -14,8 +14,6 @@
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         'moves all obstacles to the left
 
-
-
         If picObj1.Left < Me.Width Then
             For Each pic In lstObjects
                 pic.Left = pic.Left - 3
@@ -42,9 +40,8 @@
 
     Sub gameOver()
         'sets game over state
-        txtGameOver.Visible = True
+        lblGameOver.Visible = True
         Timer1.Enabled = False
-        txtGameOver.SelectionStart = 0
     End Sub
 
     Sub win()
@@ -53,18 +50,27 @@
     End Sub
 
     Private Sub Travel_1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        If Timer1.Enabled Then
+            'Moves the main character until they reach the bottom of the ground
+            If e.KeyCode = Keys.Down Then
+                If picChar.Bottom < picGround.Bottom Then
+                    picChar.Top += 10
+                End If
+            End If
 
-        If e.KeyCode = Keys.Down Then
-            picChar.Top += 10
-        End If
-        If e.KeyCode = Keys.Up Then
-            picChar.Top += -10
+            'Moves the main character until they reach the top of the ground
+            If e.KeyCode = Keys.Up Then
+                If picChar.Top > picGround.Top Then
+                    picChar.Top += -10
+                End If
+            End If
         End If
 
-        'Restart the form (ISSUES? - start without debugging works)
+        'Restart the form
         If e.KeyCode = Keys.R Then
-            Application.Restart()
-            Me.Refresh()
+            Dim frmReset As New Travel_1
+            frmReset.Show()
+            Me.Close()
         End If
     End Sub
 End Class

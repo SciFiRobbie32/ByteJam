@@ -22,6 +22,7 @@ Partial Class Story3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Story3))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Cont = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -55,6 +56,7 @@ Partial Class Story3
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(187, 39)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(201, 202)
