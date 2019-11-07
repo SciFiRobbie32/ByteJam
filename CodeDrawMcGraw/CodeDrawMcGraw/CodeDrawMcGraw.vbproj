@@ -89,6 +89,30 @@
     <Compile Include="quickdraw1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="quickdraw2.Designer.vb">
+      <DependentUpon>quickdraw2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="quickdraw2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quickdraw3.Designer.vb">
+      <DependentUpon>quickdraw3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="quickdraw3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quickdraw4.Designer.vb">
+      <DependentUpon>quickdraw4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="quickdraw4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Story8_5.Designer.vb">
+      <DependentUpon>Story8_5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Story8_5.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Story9.Designer.vb">
       <DependentUpon>Story9.vb</DependentUpon>
     </Compile>
@@ -117,12 +141,6 @@
       <DependentUpon>Story5.vb</DependentUpon>
     </Compile>
     <Compile Include="Story5.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Story4.Designer.vb">
-      <DependentUpon>Story4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Story4.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Story3.Designer.vb">
@@ -168,6 +186,18 @@
     <Compile Include="Travel-1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Travel-2.Designer.vb">
+      <DependentUpon>Travel-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Travel-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel-3.Designer.vb">
+      <DependentUpon>Travel-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Travel-3.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Fight-1.resx">
@@ -176,11 +206,20 @@
     <EmbeddedResource Include="quickdraw1.resx">
       <DependentUpon>quickdraw1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="quickdraw2.resx">
+      <DependentUpon>quickdraw2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quickdraw3.resx">
+      <DependentUpon>quickdraw3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="quickdraw4.resx">
+      <DependentUpon>quickdraw4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Story8_5.resx">
+      <DependentUpon>Story8_5.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Story9.resx">
       <DependentUpon>Story9.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Story4.resx">
-      <DependentUpon>Story4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Story1.resx">
       <DependentUpon>Story1.vb</DependentUpon>
@@ -214,6 +253,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Travel-1.resx">
       <DependentUpon>Travel-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel-2.resx">
+      <DependentUpon>Travel-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel-3.resx">
+      <DependentUpon>Travel-3.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

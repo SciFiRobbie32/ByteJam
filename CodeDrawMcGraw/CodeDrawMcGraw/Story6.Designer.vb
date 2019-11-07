@@ -29,18 +29,18 @@ Partial Class Story6
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Castellar", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(193, 203)
+        Me.Label1.Location = New System.Drawing.Point(704, 466)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(414, 33)
+        Me.Label1.Size = New System.Drawing.Size(497, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "I must save the doctor!"
         '
         'Cont
         '
         Me.Cont.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cont.Location = New System.Drawing.Point(309, 297)
+        Me.Cont.Location = New System.Drawing.Point(1018, 526)
         Me.Cont.Name = "Cont"
         Me.Cont.Size = New System.Drawing.Size(183, 49)
         Me.Cont.TabIndex = 4
@@ -52,11 +52,12 @@ Partial Class Story6
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Story6"
         Me.Text = "Code-Draw McGraw"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

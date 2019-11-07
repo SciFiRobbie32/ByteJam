@@ -22,6 +22,7 @@ Partial Class Story3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Story3))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Cont = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -33,11 +34,11 @@ Partial Class Story3
         Me.TextBox1.BackColor = System.Drawing.SystemColors.InfoText
         Me.TextBox1.Font = New System.Drawing.Font("Castellar", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.Location = New System.Drawing.Point(61, 247)
+        Me.TextBox1.Location = New System.Drawing.Point(501, 513)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(517, 164)
+        Me.TextBox1.Size = New System.Drawing.Size(902, 296)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = "*The Doctor Patches you up*  Wow you killed big hex! He's the meanest Gang leader" &
     " around. His gang will come for you for sure!"
@@ -45,7 +46,7 @@ Partial Class Story3
         'Cont
         '
         Me.Cont.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cont.Location = New System.Drawing.Point(593, 319)
+        Me.Cont.Location = New System.Drawing.Point(1220, 815)
         Me.Cont.Name = "Cont"
         Me.Cont.Size = New System.Drawing.Size(183, 49)
         Me.Cont.TabIndex = 2
@@ -55,9 +56,11 @@ Partial Class Story3
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.PictureBox1.Location = New System.Drawing.Point(187, 39)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(787, 177)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(201, 202)
+        Me.PictureBox1.Size = New System.Drawing.Size(330, 330)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
@@ -66,12 +69,13 @@ Partial Class Story3
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Story3"
         Me.Text = "Code-Draw McGraw"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

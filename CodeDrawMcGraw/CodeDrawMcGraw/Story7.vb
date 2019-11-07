@@ -4,6 +4,8 @@
     End Sub
 
     Private Sub Cont_Click(sender As Object, e As EventArgs) Handles Cont.Click
+        Dim frmQuickDraw3 As New quickdraw3
+        frmQuickDraw3.Show()
         Me.Close()
     End Sub
 End Class

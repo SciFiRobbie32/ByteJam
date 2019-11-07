@@ -17,6 +17,8 @@
                 TextBox1.Text = "You reply, You Monster!"
                 ctr += 1
             Case 4
+                Dim frmQuickDraw2 As New quickdraw2
+                frmQuickDraw2.Show()
                 Me.Close()
 
         End Select

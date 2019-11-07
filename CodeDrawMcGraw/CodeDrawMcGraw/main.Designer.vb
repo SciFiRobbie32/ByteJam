@@ -35,20 +35,20 @@ Partial Class main
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(615, 47)
+        Me.Label1.Font = New System.Drawing.Font("Castellar", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(627, 99)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(441, 39)
+        Me.Label1.Size = New System.Drawing.Size(650, 58)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Code Draw McGraw"
         '
         'btnExit
         '
         Me.btnExit.BackColor = System.Drawing.Color.Transparent
-        Me.btnExit.Font = New System.Drawing.Font("Castellar", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(27, 261)
+        Me.btnExit.Font = New System.Drawing.Font("Castellar", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Location = New System.Drawing.Point(51, 289)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(139, 56)
+        Me.btnExit.Size = New System.Drawing.Size(184, 75)
         Me.btnExit.TabIndex = 6
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = False
@@ -56,10 +56,10 @@ Partial Class main
         'btnCredits
         '
         Me.btnCredits.BackColor = System.Drawing.Color.Transparent
-        Me.btnCredits.Font = New System.Drawing.Font("Castellar", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCredits.Location = New System.Drawing.Point(27, 199)
+        Me.btnCredits.Font = New System.Drawing.Font("Castellar", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCredits.Location = New System.Drawing.Point(51, 208)
         Me.btnCredits.Name = "btnCredits"
-        Me.btnCredits.Size = New System.Drawing.Size(139, 56)
+        Me.btnCredits.Size = New System.Drawing.Size(184, 75)
         Me.btnCredits.TabIndex = 5
         Me.btnCredits.Text = "Credits"
         Me.btnCredits.UseVisualStyleBackColor = False
@@ -67,10 +67,10 @@ Partial Class main
         'btnNewGame
         '
         Me.btnNewGame.BackColor = System.Drawing.Color.Transparent
-        Me.btnNewGame.Font = New System.Drawing.Font("Castellar", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNewGame.Location = New System.Drawing.Point(27, 137)
+        Me.btnNewGame.Font = New System.Drawing.Font("Castellar", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNewGame.Location = New System.Drawing.Point(51, 125)
         Me.btnNewGame.Name = "btnNewGame"
-        Me.btnNewGame.Size = New System.Drawing.Size(139, 56)
+        Me.btnNewGame.Size = New System.Drawing.Size(184, 77)
         Me.btnNewGame.TabIndex = 4
         Me.btnNewGame.Text = "New Game"
         Me.btnNewGame.UseVisualStyleBackColor = False
@@ -78,10 +78,11 @@ Partial Class main
         'pbxMenu
         '
         Me.pbxMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.pbxMenu.Dock = System.Windows.Forms.DockStyle.Fill
         Me.pbxMenu.Image = CType(resources.GetObject("pbxMenu.Image"), System.Drawing.Image)
         Me.pbxMenu.Location = New System.Drawing.Point(0, 0)
         Me.pbxMenu.Name = "pbxMenu"
-        Me.pbxMenu.Size = New System.Drawing.Size(1371, 748)
+        Me.pbxMenu.Size = New System.Drawing.Size(1904, 1041)
         Me.pbxMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbxMenu.TabIndex = 8
         Me.pbxMenu.TabStop = False
@@ -90,7 +91,7 @@ Partial Class main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCredits)

@@ -22,6 +22,7 @@ Partial Class Story8
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Story8))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Cont = New System.Windows.Forms.Button()
@@ -31,27 +32,29 @@ Partial Class Story8
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Castellar", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(20, 280)
+        Me.Label1.Location = New System.Drawing.Point(497, 648)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(760, 33)
+        Me.Label1.Size = New System.Drawing.Size(911, 39)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Now its just us, you wont get me that easy!"
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.DarkRed
-        Me.PictureBox1.Location = New System.Drawing.Point(285, 82)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(775, 289)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(190, 158)
+        Me.PictureBox1.Size = New System.Drawing.Size(330, 330)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
         'Cont
         '
         Me.Cont.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cont.Location = New System.Drawing.Point(309, 364)
+        Me.Cont.Location = New System.Drawing.Point(1225, 711)
         Me.Cont.Name = "Cont"
         Me.Cont.Size = New System.Drawing.Size(183, 49)
         Me.Cont.TabIndex = 6
@@ -63,12 +66,13 @@ Partial Class Story8
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Story8"
         Me.Text = "Code-Draw McGraw"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

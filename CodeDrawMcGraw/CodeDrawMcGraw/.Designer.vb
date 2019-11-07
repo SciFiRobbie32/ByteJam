@@ -34,20 +34,20 @@ Partial Class Story1
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveCaptionText
-        Me.TextBox1.Font = New System.Drawing.Font("Castellar", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.Window
-        Me.TextBox1.Location = New System.Drawing.Point(84, 123)
+        Me.TextBox1.Location = New System.Drawing.Point(501, 501)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(624, 197)
+        Me.TextBox1.Size = New System.Drawing.Size(902, 296)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
         'Cont
         '
         Me.Cont.Font = New System.Drawing.Font("Castellar", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Cont.Location = New System.Drawing.Point(526, 326)
+        Me.Cont.Location = New System.Drawing.Point(1175, 803)
         Me.Cont.Name = "Cont"
         Me.Cont.Size = New System.Drawing.Size(228, 74)
         Me.Cont.TabIndex = 1
@@ -56,17 +56,19 @@ Partial Class Story1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(84, 40)
+        Me.PictureBox1.Location = New System.Drawing.Point(1073, 165)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(202, 190)
+        Me.PictureBox1.Size = New System.Drawing.Size(330, 330)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(506, 40)
+        Me.PictureBox2.Location = New System.Drawing.Point(501, 164)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(202, 190)
+        Me.PictureBox2.Size = New System.Drawing.Size(330, 330)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
         '
@@ -75,13 +77,14 @@ Partial Class Story1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1904, 1041)
         Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Name = "Story1"
         Me.Text = "Story1"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

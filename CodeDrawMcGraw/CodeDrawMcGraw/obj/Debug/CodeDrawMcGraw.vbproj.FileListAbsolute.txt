@@ -22,7 +22,6 @@ C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\De
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.vbprojAssemblyReference.cache
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Fight_1.resources
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story9.resources
-C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story4.resources
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story1.resources
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.main.resources
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Resources.resources
@@ -43,3 +42,9 @@ C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\De
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.pdb
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.xml
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw1.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Travel_2.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Travel_3.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw2.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw3.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw4.resources
+C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Story8_5.resources

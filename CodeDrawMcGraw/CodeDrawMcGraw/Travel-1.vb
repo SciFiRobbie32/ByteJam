@@ -1,14 +1,15 @@
 ﻿Public Class Travel_1
     Dim lstObjects As New List(Of PictureBox)
+    Dim lstBackground As New List(Of PictureBox)
 
     Private Sub Travel_1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         init()
         Timer1.Enabled = True
     End Sub
 
-    Sub init()
+    Private Sub init()
         'adds pictureboxes to list
-        lstObjects.AddRange({picObj1, picObj2, picObj3})
+        lstObjects.AddRange({picObj1, picObj2, picObj3, picObj4, picObj5, picObj6})
         AutoScroll = False
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -16,7 +17,7 @@
 
         If picObj1.Left < Me.Width Then
             For Each pic In lstObjects
-                pic.Left = pic.Left - 3
+                pic.Left = pic.Left - 5
 
                 'LOSE
                 If pic.Bounds.IntersectsWith(picChar.Bounds) Then
@@ -35,18 +36,21 @@
             Next
         End If
 
-        picFinishLine.Left = picFinishLine.Left - 3
+        picFinishLine.Left = picFinishLine.Left - 5
     End Sub
 
-    Sub gameOver()
+    Private Sub gameOver()
         'sets game over state
         lblGameOver.Visible = True
         Timer1.Enabled = False
     End Sub
 
-    Sub win()
+    Private Sub win()
         Timer1.Enabled = False
         MessageBox.Show("You win! Press enter to continue.")
+        Dim frmStory3 As New Story3
+        frmStory3.Show()
+        Me.Close()
     End Sub
 
     Private Sub Travel_1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
