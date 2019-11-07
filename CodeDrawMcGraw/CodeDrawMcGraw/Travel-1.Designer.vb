@@ -27,22 +27,22 @@ Partial Class Travel_1
         Me.picObj1 = New System.Windows.Forms.PictureBox()
         Me.picObj2 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.txtGameOver = New System.Windows.Forms.TextBox()
         Me.picObj3 = New System.Windows.Forms.PictureBox()
-        Me.picLengthLine = New System.Windows.Forms.PictureBox()
+        Me.picGround = New System.Windows.Forms.PictureBox()
         Me.picFinishLine = New System.Windows.Forms.PictureBox()
+        Me.lblGameOver = New System.Windows.Forms.Label()
         CType(Me.picChar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picObj1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picObj2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picObj3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.picLengthLine, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.picGround, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picFinishLine, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'picChar
         '
         Me.picChar.BackColor = System.Drawing.Color.Lime
-        Me.picChar.Location = New System.Drawing.Point(459, 427)
+        Me.picChar.Location = New System.Drawing.Point(281, 805)
         Me.picChar.Name = "picChar"
         Me.picChar.Size = New System.Drawing.Size(139, 63)
         Me.picChar.TabIndex = 0
@@ -51,7 +51,7 @@ Partial Class Travel_1
         'picObj1
         '
         Me.picObj1.BackColor = System.Drawing.Color.Red
-        Me.picObj1.Location = New System.Drawing.Point(881, 310)
+        Me.picObj1.Location = New System.Drawing.Point(845, 601)
         Me.picObj1.Name = "picObj1"
         Me.picObj1.Size = New System.Drawing.Size(120, 77)
         Me.picObj1.TabIndex = 1
@@ -60,7 +60,7 @@ Partial Class Travel_1
         'picObj2
         '
         Me.picObj2.BackColor = System.Drawing.Color.Red
-        Me.picObj2.Location = New System.Drawing.Point(1276, 531)
+        Me.picObj2.Location = New System.Drawing.Point(1233, 815)
         Me.picObj2.Name = "picObj2"
         Me.picObj2.Size = New System.Drawing.Size(120, 77)
         Me.picObj2.TabIndex = 2
@@ -70,45 +70,45 @@ Partial Class Travel_1
         '
         Me.Timer1.Interval = 5
         '
-        'txtGameOver
-        '
-        Me.txtGameOver.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.txtGameOver.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtGameOver.Font = New System.Drawing.Font("Castellar", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGameOver.Location = New System.Drawing.Point(844, 63)
-        Me.txtGameOver.Name = "txtGameOver"
-        Me.txtGameOver.ReadOnly = True
-        Me.txtGameOver.Size = New System.Drawing.Size(241, 39)
-        Me.txtGameOver.TabIndex = 3
-        Me.txtGameOver.Text = "GAME OVER"
-        Me.txtGameOver.Visible = False
-        '
         'picObj3
         '
         Me.picObj3.BackColor = System.Drawing.Color.Red
-        Me.picObj3.Location = New System.Drawing.Point(1802, 436)
+        Me.picObj3.Location = New System.Drawing.Point(1754, 578)
         Me.picObj3.Name = "picObj3"
         Me.picObj3.Size = New System.Drawing.Size(120, 77)
         Me.picObj3.TabIndex = 4
         Me.picObj3.TabStop = False
         '
-        'picLengthLine
+        'picGround
         '
-        Me.picLengthLine.BackColor = System.Drawing.Color.Red
-        Me.picLengthLine.Location = New System.Drawing.Point(447, 932)
-        Me.picLengthLine.Name = "picLengthLine"
-        Me.picLengthLine.Size = New System.Drawing.Size(4527, 33)
-        Me.picLengthLine.TabIndex = 5
-        Me.picLengthLine.TabStop = False
+        Me.picGround.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.picGround.BackColor = System.Drawing.Color.Goldenrod
+        Me.picGround.Location = New System.Drawing.Point(-51, 515)
+        Me.picGround.Name = "picGround"
+        Me.picGround.Size = New System.Drawing.Size(4733, 425)
+        Me.picGround.TabIndex = 5
+        Me.picGround.TabStop = False
         '
         'picFinishLine
         '
+        Me.picFinishLine.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.picFinishLine.BackColor = System.Drawing.Color.Lime
-        Me.picFinishLine.Location = New System.Drawing.Point(2036, 0)
+        Me.picFinishLine.Location = New System.Drawing.Point(3164, 515)
         Me.picFinishLine.Name = "picFinishLine"
-        Me.picFinishLine.Size = New System.Drawing.Size(34, 926)
+        Me.picFinishLine.Size = New System.Drawing.Size(34, 425)
         Me.picFinishLine.TabIndex = 6
         Me.picFinishLine.TabStop = False
+        '
+        'lblGameOver
+        '
+        Me.lblGameOver.AutoSize = True
+        Me.lblGameOver.Font = New System.Drawing.Font("Castellar", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblGameOver.Location = New System.Drawing.Point(776, 34)
+        Me.lblGameOver.Name = "lblGameOver"
+        Me.lblGameOver.Size = New System.Drawing.Size(347, 66)
+        Me.lblGameOver.TabIndex = 7
+        Me.lblGameOver.Text = "      GAME OVER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Press 'R' to restart" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.lblGameOver.Visible = False
         '
         'Travel_1
         '
@@ -116,14 +116,14 @@ Partial Class Travel_1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.ClientSize = New System.Drawing.Size(1344, 1017)
+        Me.ClientSize = New System.Drawing.Size(1066, 948)
+        Me.Controls.Add(Me.lblGameOver)
         Me.Controls.Add(Me.picFinishLine)
-        Me.Controls.Add(Me.picLengthLine)
         Me.Controls.Add(Me.picObj3)
-        Me.Controls.Add(Me.txtGameOver)
         Me.Controls.Add(Me.picObj2)
         Me.Controls.Add(Me.picObj1)
         Me.Controls.Add(Me.picChar)
+        Me.Controls.Add(Me.picGround)
         Me.Name = "Travel_1"
         Me.Text = "Travel_1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
@@ -131,7 +131,7 @@ Partial Class Travel_1
         CType(Me.picObj1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picObj2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picObj3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.picLengthLine, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.picGround, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picFinishLine, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -142,8 +142,8 @@ Partial Class Travel_1
     Friend WithEvents picObj1 As PictureBox
     Friend WithEvents picObj2 As PictureBox
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents txtGameOver As TextBox
     Friend WithEvents picObj3 As PictureBox
-    Friend WithEvents picLengthLine As PictureBox
+    Friend WithEvents picGround As PictureBox
     Friend WithEvents picFinishLine As PictureBox
+    Friend WithEvents lblGameOver As Label
 End Class
