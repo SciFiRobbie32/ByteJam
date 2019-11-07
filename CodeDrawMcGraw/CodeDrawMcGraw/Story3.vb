@@ -14,7 +14,7 @@
                 TextBox1.Location = New Point(50, 250)
                 TextBox1.Height = 100
                 PictureBox1.Show()
-                PictureBox1.BackColor = Color.Blue
+                PictureBox1.Image = Image.FromFile("..\..\..\Assets\Enemies\Enemy.gif")
                 ctr3 += 1
             Case 2
                 Me.Close()

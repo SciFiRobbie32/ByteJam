@@ -43,3 +43,6 @@ C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\De
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.pdb
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\bin\Debug\CodeDrawMcGraw.xml
 C:\Users\andre\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw1.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Fight_1.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.quickdraw1.resources
+C:\Users\david\Documents\GitHub\ByteJam2019\CodeDrawMcGraw\CodeDrawMcGraw\obj\Debug\CodeDrawMcGraw.Travel_1.resources
