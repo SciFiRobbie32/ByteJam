@@ -22,6 +22,7 @@ Partial Class Story9
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Story9))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Cont = New System.Windows.Forms.Button()
@@ -31,6 +32,7 @@ Partial Class Story9
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(305, 62)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(190, 167)
@@ -58,7 +60,7 @@ Partial Class Story9
         Me.Cont.Text = "Continue"
         Me.Cont.UseVisualStyleBackColor = True
         '
-        'Form1
+        'Story9
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -67,7 +69,7 @@ Partial Class Story9
         Me.Controls.Add(Me.Cont)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "Story9"
         Me.Text = "Code-Draw McGraw"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

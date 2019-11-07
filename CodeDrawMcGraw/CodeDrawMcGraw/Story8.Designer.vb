@@ -22,6 +22,7 @@ Partial Class Story8
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Story8))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Cont = New System.Windows.Forms.Button()
@@ -42,9 +43,11 @@ Partial Class Story8
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.DarkRed
-        Me.PictureBox1.Location = New System.Drawing.Point(285, 82)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(285, 50)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(190, 158)
+        Me.PictureBox1.Size = New System.Drawing.Size(207, 194)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
